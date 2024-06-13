@@ -16,5 +16,9 @@ public class MyController {
     public String deepu(){
         return "end controller";
     }
+    @GetMapping("/merge")
+    public String merge(){
+        return "merge sucessfully";
+    }
 
 }
