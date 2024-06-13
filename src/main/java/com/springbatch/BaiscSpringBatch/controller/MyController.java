@@ -12,5 +12,9 @@ public class MyController {
     public String test(){
         return "started controller";
     }
+    @GetMapping("/test")
+    public String deepu(){
+        return "end controller";
+    }
 
 }
