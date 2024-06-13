@@ -20,5 +20,9 @@ public class MyController {
     public String merge(){
         return "merge sucessfully";
     }
+    @GetMapping("/pull")
+    public String pull(){
+        return "pull sucessfully";
+    }
 
 }
