@@ -42,18 +42,13 @@ public class MyController {
     public String test1() {
         return "test1 sucessfully";
     }
-=======
 
     @GetMapping("/pull")
     public String pull() {
         return "pull sucessfully";
     }
 
-    @GetMapping("/test1")
-    public String test1() {
-        return "test1 method";
 
-    }
 }
 
 
